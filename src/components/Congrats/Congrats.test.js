@@ -4,9 +4,7 @@ import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 import { findByTestAttr, checkProps } from '../../utils/testUtils'
 import Congrats from './Congrats'
-
 Enzyme.configure({ adapter: new EnzymeAdapter() })
-
 
 const defaultProps = { success:false }
 
